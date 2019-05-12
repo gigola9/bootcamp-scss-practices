@@ -1,19 +1,23 @@
-$color-1: #21C2F8;
-$color-2: #FFF;
-$color-3: #222533;
-$color-4: #F39705;
-$color-5: #E25611;
-$color-6: #9A2C4A;
-$color-7: #97C200;
-$color-8: #3D4C53;
-$color-9: #62A783;
-$color-10: #F82F54;
-$color-11: #8FC567;
+$color-1: #2C3E50;
+$color-2: #A47503;
+$color-3: #2C3E50;
+$color-4: #A1B1BC;
+$color-5: #FFC12D;
+$color-6: #F9B718;
+$color-7: #CFD2D3;
+$color-8: #A1B1BC;
 
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+}
+
+h1{
+    font-size: 30px;
+    line-height: 26px;
+    font-family: 'Lato Light', sans-serif;
+    color: $color-1;
 }
 
 body {
@@ -24,101 +28,92 @@ body {
 }
 
 .row {
+    width: 1250px;
+    margin-top: 55px;
     display: flex;
-    align-items: flex-end;
+    flex-wrap: wrap;
 
-    .btn {
+    .fr{
+        position: relative;
         margin-right: 30px;
-
-        &:last-child {
-            margin-right: 0;
+        margin-bottom: 30px;
+        width: 570px;
+        height: 150px;
+        border-radius: 10px;
+        display: flex;
+        flex-wrap: wrap;
+        &:last-child{
+            margin-right: 0px;
+            margin-bottom: 0px;
         }
-    }
-}
 
-.btn {
-    color: $color-2;
-    background-color: $color-1;
-    padding: 11px 36.1px 11px 36.2px;
-    text-decoration: none;
-    text-transform: uppercase;
-    font-family: 'Lato', sans-serif;
-    font-weight: 900;
-    font-size: 14px;
-    border: none;
-    letter-spacing: 0.2px;
+        .cont{
+            margin-top: 34px;
+        }
 
-    &:hover {
-        cursor: pointer;
-        background-color: $color-3; 
-    }
+        .fa-times{
+            position: absolute;
+            color: $color-7;
+            font-size: 14px;
+            top: 17px;
+            right: 18px;
+        }
 
-    &.medium {
-        font-size: 18px;
-        padding: 14px 47px;
-    }
+        h3{
+            font-family: 'Lato Black';
+            font-size: 14px;
+            line-height: 26px;
+            padding-left: 28px;
+            height: 20px;
+            letter-spacing: 1.4px;
+            color: $color-3;
+            width: 370px;
+        }
 
-    &.large {
-        font-size: 26px;
-        padding: 23px 93px;
-    }
+        p{
+            padding-top: 12px;
+            padding-left: 28px;
+            width: 370px;
+            color: $color-8;
+            font-size: 14px;
+            line-height: 24px;
+            font-family: 'Lato';
+        }
 
-    &.x-large {
-        font-size: 36px;
-        padding: 27px 100px 27px 102px;
-    }
+        .dv{
+            width: 64px;
+            height: 64px;
+            margin-left: 49px;
+            margin-top: 42px;
+            margin-bottom: 0px;
+            margin-right:  0px;
+            border-radius: 35px;
+        }
 
-    &.round {
-      &-3 {
-        border-radius: 3px;
-      }
+        .dv i{
+            font-size: 20px;
+            line-height: 26px;
+            padding-left: 21px;
+            padding-top: 12px;
+        }
 
-      &-7 {
-        border-radius: 7px;
-      }
+        &.f0{
+            border: 1px solid #E2E6E7;
 
-      &-12 {
-        border-radius: 12px;
-      }
+            .dv{
+                background-color: $color-5;
+                border: 7px solid $color-6;
+            }
 
-      &-20 {
-        border-radius: 20px;
-      }
-    }
-}
+            .dv i{
+                color: $color-2;
+            }
+        }
 
-.bg-color {
-    &-1 {
-        background-color: $color-1;
-    }
-    &-2 {
-        background-color: $color-2;
-    }
-    &-3 {
-        background-color: $color-3;
-    }
-    &-4 {
-        background-color: $color-4;
-    }
-    &-5 {
-        background-color: $color-5;
-    }
-    &-6 {
-        background-color: $color-6;
-    }
-    &-7 {
-        background-color: $color-7;
-    }
-    &-8 {
-        background-color: $color-8;
-    }
-    &-9 {
-        background-color: $color-9;
-    }
-    &-10 {
-        background-color: $color-10;
-    }
-    &-11 {
-        background-color: $color-11;
+        &.f4{
+            width: 1170px;
+        }
+
+
     }
 }
