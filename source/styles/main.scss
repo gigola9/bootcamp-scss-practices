@@ -5,7 +5,7 @@ $color-4: #A1B1BC;
 $color-5: #FFC12D;
 $color-6: #F9B718;
 $color-7: #CFD2D3;
-$color-8: #A1B1BC;
+$color-8: #2C3E50;
 $color-9: #97E411;
 $color-10: #7BC200;
 $color-11: #558502;
@@ -18,6 +18,16 @@ $color-17: #0787D4;
 $color-18: #A39CDC;
 $color-19: #8781BD;
 $color-20: #5B568E;
+$color-21: #FFC12D;
+$color-22: #B18009;
+$color-23: #A7EC2F;
+$color-24: #558502;
+$color-25: #FEB1A4;
+$color-26: #D52E13;
+$color-27: #85EBFA;
+$color-28: #0787D4;
+$color-29: #AACDF6;
+$color-30: #5B568E;
 
 * {
     padding: 0;
@@ -46,7 +56,6 @@ body {
     flex-wrap: wrap;
 
     .fr{
-        border: 1px solid #E2E6E7;
         position: relative;
         margin-right: 30px;
         margin-bottom: 30px;
@@ -66,7 +75,6 @@ body {
 
         .xf{
             position: absolute;
-            color: $color-7;
             font-size: 14px;
             top: 17px;
             right: 18px;
@@ -112,6 +120,12 @@ body {
 
         &.f0{
 
+            background-color: $color-21;
+
+            .xf{
+                color: $color-22;
+            }
+
             .dv{
                 background-color: $color-5;
                 border: 7px solid $color-6;
@@ -124,6 +138,12 @@ body {
 
         
         &.f1{
+
+            background-color: $color-23;
+
+            .xf{
+                color: $color-24;
+            }
 
             .dv{
                 background-color: $color-9;
@@ -138,6 +158,12 @@ body {
 
         &.f2{
 
+            background-color: $color-25;
+
+            .xf{
+                color: $color-26;
+            }
+
             .dv{
                 background-color: $color-12;
                 border: 7px solid $color-13;
@@ -151,6 +177,12 @@ body {
 
         &.f3{
 
+            background-color: $color-27;
+
+            .xf{
+                color: $color-28;
+            }
+
             .dv{
                 background-color: $color-15;
                 border: 7px solid $color-16;
@@ -163,6 +195,12 @@ body {
         }
 
         &.f4{
+
+            background-color: $color-29;
+
+            .xf{
+                color: $color-30;
+            }
             width: 1170px;
 
             p{
